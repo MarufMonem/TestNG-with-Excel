@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5698d438-a9a7-4dab-9a2a-4418ed7ffa77" name="Changes" comment="Basic skeleton created for Data Provider">
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataProvider.java" afterDir="false" />
+    <list default="true" id="5698d438-a9a7-4dab-9a2a-4418ed7ffa77" name="Changes" comment="Added apache POI dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/datDriven/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.dataProvider.testCaseData">
     <configuration name="dataProvider.testCaseData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcelDataProvider" />
       <option name="PACKAGE_NAME" value="" />
@@ -53,9 +51,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="excel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExcelDataProvider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="excel" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="excel.getExcelData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExcelDataProvider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="excel" />
+      <option name="METHOD_NAME" value="getExcelData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.dataProvider.testCaseData" />
+        <item itemvalue="TestNG.excel.getExcelData" />
+        <item itemvalue="TestNG.excel" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +98,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668839443804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Folder structure refactoring">
+      <created>1668840722017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668840722017</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Printing the data passed by dataprovider using TestNG">
+      <created>1668840751450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668840751450</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added apache POI dependencies">
+      <created>1668840772551</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668840772551</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,14 +136,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New project created to combine TestNG with Excel" />
     <MESSAGE value="Basic skeleton created for Data Provider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic skeleton created for Data Provider" />
+    <MESSAGE value="Folder structure refactoring" />
+    <MESSAGE value="Printing the data passed by dataprovider using TestNG" />
+    <MESSAGE value="Added apache POI dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added apache POI dependencies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/dataProvider.java</url>
-          <line>6</line>
+          <line>17</line>
           <properties class="dataProvider" method="testCaseData">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
